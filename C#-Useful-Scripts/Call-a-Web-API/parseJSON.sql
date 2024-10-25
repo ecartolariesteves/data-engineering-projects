@@ -1,3 +1,21 @@
+/*
+-- Author: Edgar Cartolari Esteves
+--
+--  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
+--
+--  https://www.linkedin.com/in/edgaresteves/
+--
+-- English
+-- Script to read JSON files into SQL with old versions
+
+-- Spanish
+-- Script para leer archivos JSON en SQL con versiones antiguas
+
+-- Portuguese
+-- Script para ler os arquivos JSON em SQL com versiones antiguas
+
+*/
+
 DECLARE @JSON nvarchar(4000) =
 	(SELECT TOP 1
 	JSON
